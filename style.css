@@ -1,5 +1,5 @@
 body {
-    width: 100dvw;
+    width: 400px;
     height: 100dvh;
     background: linear-gradient(180deg, rgb(0, 98, 128), rgb(39, 146, 141));
     margin: 0%;
@@ -39,7 +39,7 @@ article {
 
 @keyframes moverNube {
     0% {
-        left: 100%; /* Empieza justo afuera de la pantalla por la derecha */
+        left: 30%; /* Empieza justo afuera de la pantalla por la derecha */
     }
     100% {
         left: -410px; /* Termina cuando sale completamente por la izquierda */
@@ -51,8 +51,8 @@ button {
     background-color: rgb(165, 154, 0);
     position: absolute;
     top: 25%;
-    left: 50%;
-    transform: translatex(-50%);
+    left: 20%;
+    transform: translatex(-60%);
     height: 60px;
     width: 200px;
     font-size: larger;
@@ -89,9 +89,10 @@ footer {
     cursor: pointer;
     color: white;
     position: absolute;
-    top: 30%;
-    left: 50%;
-    transform: translatex(-50%);
+    width: 30%;
+    top: 33%;
+    left: 23%;
+    transform: translatex(-60%);
     font-size: larger;
     font-weight: bold;
 }

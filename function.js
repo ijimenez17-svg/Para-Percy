@@ -15,7 +15,7 @@ function crearNube() {
     nuevaNube.classList.add("nube");
 
     // Opcional: Hacer que aparezcan a alturas un poco diferentes en el cielo
-    const alturaRandom = Math.floor(Math.random() * 80) + 10; // Entre 10px y 90px de arriba
+    const alturaRandom = Math.floor(Math.random() * 40) + 10; // Entre 10px y 90px de arriba
     nuevaNube.style.top = alturaRandom + "px";
 
     // Metemos la nube al cielo del jardín
@@ -28,7 +28,7 @@ function corazon() {
     nuevocorazon.src = rutacorazon;
     nuevocorazon.alt = "Corazon volador";
     nuevocorazon.classList.add("corazon");
-    const randomLeft = Math.floor(Math.random() * 80) + 10
+    const randomLeft = Math.floor(Math.random() * 40) + 10
     nuevocorazon.style.left = randomLeft + "%";
     jardin.appendChild(nuevocorazon);
 
@@ -45,7 +45,7 @@ boton.addEventListener("click", function() {
     nuevoGirasol.style.width = randomSize + "px";
     nuevoGirasol.style.height = randomSize + "px"; //
 
-    const randomLeft = Math.floor(Math.random() * 80) + 10
+    const randomLeft = Math.floor(Math.random() * 40) + 10
     nuevoGirasol.style.left = randomLeft + "%";
 
     jardin.appendChild(nuevoGirasol);
